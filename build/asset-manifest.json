@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/static/js/main.cfa27ea1.chunk.js",
+    "main.js.map": "/static/js/main.cfa27ea1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4e0bcf47.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4e0bcf47.js.map",
+    "static/js/2.2d457601.chunk.js": "/static/js/2.2d457601.chunk.js",
+    "static/js/2.2d457601.chunk.js.map": "/static/js/2.2d457601.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.2d457601.chunk.js.LICENSE.txt": "/static/js/2.2d457601.chunk.js.LICENSE.txt",
+    "static/media/no_image.22d2aa4d.jpg": "/static/media/no_image.22d2aa4d.jpg",
+    "static/media/react-movie-logo.35f4d399.svg": "/static/media/react-movie-logo.35f4d399.svg",
+    "static/media/search-icon.bb4c697f.svg": "/static/media/search-icon.bb4c697f.svg",
+    "static/media/tmdb_logo.e7029961.svg": "/static/media/tmdb_logo.e7029961.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e0bcf47.js",
+    "static/js/2.2d457601.chunk.js",
+    "static/js/main.cfa27ea1.chunk.js"
+  ]
+}

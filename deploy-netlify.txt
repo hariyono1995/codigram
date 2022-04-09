@@ -1,0 +1,15 @@
+# langkah-langkah deploy di netifly 
+
+1. npm run build
+2. buka folder build dan buat file dengan nama \_redirects
+3. buka file \_redirects dan ketikan (/* /index.html 200) tanpa tanda ()
+4. kunjungi web app.netlifly.com dan buat akun.
+5. drop folder build di or deploy manually
+
+
+# Deploy app lewat terminal 
+1. install netlify dengan mengetikan npm netlifly-cli -g
+2. ketik netlifly deploy
+3. pilih create & configure 
+4. atur konfigurasi nya dan enter sampai ketemu 'Publish directory' 
+5. ketikan alamat directory folder build yang sudah di buat
