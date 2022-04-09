@@ -1,16 +1,24 @@
 import React from "react";
 
+import PropTypes from "prop-types";
+
 import { Wrapper, Content, Text } from "./Hero.styles";
 
-const HeroImage = (props) => (
-  <Wrapper image={props.image}>
+const HeroImage = ({ image, title, text }) => (
+  <Wrapper image={image}>
     <Content>
       <Text>
-        <h1>{props.title}</h1>
-        <p>{props.text}</p>
+        <h1>{title}</h1>
+        <p>{text}</p>
       </Text>
     </Content>
   </Wrapper>
 );
+
+HeroImage.propTypes = {
+  image: PropTypes.string,
+  title: PropTypes.string,
+  text: PropTypes.string,
+};
 
 export default HeroImage;

@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 
+import PropTypes from "prop-types";
+
 //  Styles
 import { Wrapper, Content } from "./Search.styles";
 
@@ -38,6 +40,10 @@ const SearchMovie = ({ setSearchTerm }) => {
       </Content>
     </Wrapper>
   );
+};
+
+SearchMovie.propTypes = {
+  setSearchTerm: PropTypes.func,
 };
 
 export default SearchMovie;

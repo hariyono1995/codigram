@@ -39,6 +39,7 @@ const Movie = () => {
       <Grid header="Actors">
         {(movie.actors || []).map((actor) => (
           <Actor
+            key={actor.id}
             actor={actor.name}
             character={actor.character}
             profile_path={
